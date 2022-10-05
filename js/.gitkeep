@@ -2,6 +2,14 @@
 
 All about Marvel heroes! Click o an image to learn more.
 
+## Installation
+
+TODO: Describe the installation process
+
+## Usage
+
+TODO: Write usage instructions
+
 ## Contributing
 
 1. Fork it!
@@ -10,11 +18,17 @@ All about Marvel heroes! Click o an image to learn more.
 4. Push to the branch: `git push origin my-new-feature`
 5. Submit a pull request :D
 
+## History
+
+TODO: Write history
 
 ## Credits
 
-All images are copyright by Marvel
+TODO: Write credits
 
 ## License
 
-MIT
+TODO: Write license
+]]></content>
+  <tabTrigger>readme</tabTrigger>
+</snippet>
