@@ -16,44 +16,55 @@
     </header>
 
     <!-- image go here --> 
-
 <main>
     <nav id="character-nav">
         <ul class="characters">
             <li>
-                <div class="sprites" id="cap"></div>
-                <div class="red-bumper"></div>
-                <h5>Captain America</h5>
+                <a href="#lightbox">
+                    <div class="sprites" id="cap"></div>
+                    <div class="red-bumper"></div>
+                    <h5>Captain America</h5>
+                </a>
             </li>
 
             <li>
-                <div class="sprites" id="carol"></div>
-                <div class="red-bumper"></div>
-                <h5>Captain Marvel</h5>
+                <a href="#lightbox">
+                    <div class="sprites" id="carol"></div>
+                    <div class="red-bumper"></div>
+                    <h5>Captain Marvel</h5>
+                </a>
             </li>
 
             <li>
-                <div class="sprites" id="clint"></div>
-                <div class="red-bumper"></div>
-                <h5>Haweye</h5>
+                <a href="#lightbox">
+                    <div class="sprites" id="clint"></div>
+                    <div class="red-bumper"></div>
+                    <h5>Haweye</h5>
+                </a>
             </li>
 
             <li>
-                <div class="sprites" id="hulk"></div>
-                <div class="red-bumper"></div>
-                <h5>Hulk</h5>
+                <a href="#lightbox">
+                    <div class="sprites" id="hulk"></div>
+                    <div class="red-bumper"></div>
+                    <h5>Hulk</h5>
+                </a>
             </li>
             
             <li>
-                <div class="sprites" id="thor"></div>
-                <div class="red-bumper"></div>
-                <h5>Thor</h5>
+                <a href="#lightbox2">
+                    <div class="sprites" id="thor"></div>
+                    <div class="red-bumper"></div>
+                    <h5>Thor</h5>
+                </a>
             </li>
 
             <li>
-                <div class="sprites" id="widow"></div>
-                <div class="red-bumper"></div>
-                <h5>Black widow</h5>
+                <a href="#lightbox">
+                    <div class="sprites" id="widow"></div>
+                    <div class="red-bumper"></div>
+                    <h5>Black widow</h5>
+                </a>
             </li>
             </ul> 
     </nav>
@@ -67,5 +78,31 @@
     <footer class="sticky_footer"> 
         <h3>All images &copy; Marvel</h3> 
     </footer>
+
+    <!--put the lightbox at the bottom of the stack (which is the top when it gets rendered)--> 
+    <section class="lightbox" id="lightbox">
+        <a href="" class="lb_close">X</a>
+
+        <article>
+            <h3 class="lb_heading">Captain America - The First America</h3>
+            <p class="lb_text"></p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti doloribus nemo quidem. Eligendi optio mollitia accusantium quo quaerat, asperiores voluptates quae et. Id dolore quos et quibusdam explicabo commodi optio.
+            <p class="lb_text"></p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae ea reprehenderit saepe cum inventore doloribus, itaque, quae doloremque provident explicabo quam ut voluptas error obcaecati eius expedita quisquam magni. Iste.
+        </article>    
+    </section>
+    <!--thor's lightbox-->
+    <section class="lightbox" id="lightbox2">
+        <a href="" class="lb_close">X</a>
+
+        <article>
+            <h3 class="lb_heading">Thor Odinson - The Asgardian</h3>
+            <p class="lb_text"></p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti doloribus nemo quidem. Eligendi optio mollitia accusantium quo quaerat, asperiores voluptates quae et. Id dolore quos et quibusdam explicabo commodi optio.
+            <p class="lb_text"></p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae ea reprehenderit saepe cum inventore doloribus, itaque, quae doloremque provident explicabo quam ut voluptas error obcaecati eius expedita quisquam magni. Iste.
+        </article>    
+    </section>
+
 </body>
 </html>
